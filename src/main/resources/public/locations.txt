@@ -1,0 +1,41 @@
+// Alabama
+-87.8864, 30.6311, Work, Daphne
+-86.5850, 34.7300, Vacation, Huntsville
+// California
+-117.1625, 32.7150, ESRI User Conference 2015, San Diego
+// Florida
+-81.2989, 28.4158, Disney World & Residence, Orlando
+-84.2533, 30.4550, Vacation, Tallahassee
+-82.5458, 27.7625, Convention, Tampa
+-80.6077, 28.3922, Kennedy Space Center, Cape Canaveral
+-80.2241, 25.7877, Vacation, Miami
+// Georgia
+-84.3880, 33.7490, MS Ignite 2016, Atlanta
+-84.3241, 34.8640, Vacation, Blue Ridge
+// Louisiana
+-90.6053, 29.7225, Birth City, Lockport
+-93.2086, 30.2147, Conventions, Lake Charles
+-90.0500, 29.9667, Conventions and Random Visits, New Orleans
+-90.8200, 29.7922, Former Residence, Thibodaux
+-90.7161, 29.5875, Former Residence, Houma
+-91.1400, 30.4500, Conventions, Baton Rouge
+-91.1972, 29.7008, Family, Morgan City Area
+-90.4656, 30.5044, Renaissance Festival, Hammond
+-92.0333, 30.2167, Former Residence, Lafayette
+-93.7472, 32.5147, Work, Shreveport
+// Mississippi
+-88.9278, 30.4119, Vacation, Biloxi
+// Nevada
+-115.1739, 36.1215, Vacation, Las Vegas and Grand Canyon
+// New York
+-77.0367, 38.8951, 4th of July and Work, Washington D.C.
+-74.0059, 40.7127, Macy's Day Parade, New York City
+// Tennessee
+-86.7833, 36.1667, Vacation, Nashville
+-85.2672, 35.0456, Vacation, Chattanooga
+-83.5102, 35.7143, Great Smoky Mountains National Park Visit, Gatlinburg
+// Texas
+-96.7970, 32.7767, Airport, Dallas
+-98.5000, 29.4167, Vacation, San Antonio
+-95.3831, 29.7628, MS TechEd 2014, Houston
+-97.7431, 30.2672, Work, Austin
