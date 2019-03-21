@@ -1,11 +1,19 @@
 package com.cfanguy;
 
 import java.io.BufferedReader;
+import java.io.FileInputStream;
 import java.io.FileReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+import org.springframework.core.io.ResourceLoader;
 import org.springframework.stereotype.Controller;
+import org.springframework.util.StreamUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -13,6 +21,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @SpringBootApplication
 public class Main {
+
+  @Autowired
+  private ResourceLoader resourceLoader;
 
   public static void main(String[] args) throws Exception {
     SpringApplication.run(Main.class, args);
@@ -26,18 +37,19 @@ public class Main {
   @RequestMapping(value="/data", method=RequestMethod.GET)
   @ResponseBody
   public String getData() {
-    // x, y, event, location
+    // x, y, event, location within file
+    final Resource fileResource = resourceLoader.getResource("classpath:/public/locations.txt");
+
     StringBuilder builder = new StringBuilder();
     try
     {
-      builder.append("test");
-
-      // TODO: Figure out way to open file when compiled to .jar
-      BufferedReader reader = new BufferedReader(new FileReader("locations.txt"));
+      BufferedReader reader = new BufferedReader(new InputStreamReader(fileResource.getInputStream()));
       String line;
       while ((line = reader.readLine()) != null)
       {
-        builder.append(line);
+        if(!line.contains("//")) {
+          builder.append(line);
+        };        
       }
       reader.close();
       return builder.toString();
