@@ -52,7 +52,8 @@ public class Main {
         };        
       }
       reader.close();
-      return builder.toString();
+      String test = builder.toString();//.replace("[", "").replace("]", "");
+      return "function mapData() { return'" + test + "'};";
     }
     catch (Exception e)
     {
