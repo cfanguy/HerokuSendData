@@ -38,7 +38,7 @@ public class Main {
   @ResponseBody
   public String getData() {
     // x, y, event, location within file
-    final Resource fileResource = resourceLoader.getResource("classpath:/public/locations.txt");
+    final Resource fileResource = resourceLoader.getResource("classpath:/public/locations.json");
 
     StringBuilder builder = new StringBuilder();
     try

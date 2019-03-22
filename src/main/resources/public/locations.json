@@ -1,0 +1,188 @@
+[
+ {
+   "x": -87.8864,
+   "y": 30.6311,
+   "event": "Work",
+   "loc": "Daphne"
+ },
+ {
+   "x": -86.585,
+   "y": 34.73,
+   "event": "Vacation",
+   "loc": "Huntsville"
+ },
+ {
+   "x": -117.1625,
+   "y": 32.715,
+   "event": "ESRI User Conference 2015",
+   "loc": "San Diego"
+ },
+ {
+   "x": -81.2989,
+   "y": 28.4158,
+   "event": "Disney World & Residence",
+   "loc": "Orlando"
+ },
+ {
+   "x": -84.2533,
+   "y": 30.455,
+   "event": "Vacation",
+   "loc": "Tallahassee"
+ },
+ {
+   "x": -82.5458,
+   "y": 27.7625,
+   "event": "Convention",
+   "loc": "Tampa"
+ },
+ {
+   "x": -80.6077,
+   "y": 28.3922,
+   "event": "Kennedy Space Center",
+   "loc": "Cape Canaveral"
+ },
+ {
+   "x": -80.2241,
+   "y": 25.7877,
+   "event": "Vacation",
+   "loc": "Miami"
+ },
+ {
+   "x": -84.388,
+   "y": 33.749,
+   "event": "MS Ignite 2016",
+   "loc": "Atlanta"
+ },
+ {
+   "x": -84.3241,
+   "y": 34.864,
+   "event": "Vacation",
+   "loc": "Blue Ridge"
+ },
+ {
+   "x": -90.6053,
+   "y": 29.7225,
+   "event": "Birth City",
+   "loc": "Lockport"
+ },
+ {
+   "x": -93.2086,
+   "y": 30.2147,
+   "event": "Conventions",
+   "loc": "Lake Charles"
+ },
+ {
+   "x": -90.05,
+   "y": 29.9667,
+   "event": "Conventions and Random Visits",
+   "loc": "New Orleans"
+ },
+ {
+   "x": -90.82,
+   "y": 29.7922,
+   "event": "Former Residence",
+   "loc": "Thibodaux"
+ },
+ {
+   "x": -90.7161,
+   "y": 29.5875,
+   "event": "Former Residence",
+   "loc": "Houma"
+ },
+ {
+   "x": -91.14,
+   "y": 30.45,
+   "event": "Conventions",
+   "loc": "Baton Rouge"
+ },
+ {
+   "x": -91.1972,
+   "y": 29.7008,
+   "event": "Family",
+   "loc": "Morgan City Area"
+ },
+ {
+   "x": -90.4656,
+   "y": 30.5044,
+   "event": "Renaissance Festival",
+   "loc": "Hammond"
+ },
+ {
+   "x": -92.0333,
+   "y": 30.2167,
+   "event": "Former Residence",
+   "loc": "Lafayette"
+ },
+ {
+   "x": -93.7472,
+   "y": 32.5147,
+   "event": "Work",
+   "loc": "Shreveport"
+ },
+ {
+   "x": -88.9278,
+   "y": 30.4119,
+   "event": "Vacation",
+   "loc": "Biloxi"
+ },
+ {
+   "x": -115.1739,
+   "y": 36.1215,
+   "event": "Vacation",
+   "loc": "Las Vegas and Grand Canyon"
+ },
+ {
+   "x": -77.0367,
+   "y": 38.8951,
+   "event": "4th of July and Work",
+   "loc": "Washington D.C."
+ },
+ {
+   "x": -74.0059,
+   "y": 40.7127,
+   "event": "Macy's Day Parade",
+   "loc": "New York City"
+ },
+ {
+   "x": -86.7833,
+   "y": 36.1667,
+   "event": "Vacation",
+   "loc": "Nashville"
+ },
+ {
+   "x": -85.2672,
+   "y": 35.0456,
+   "event": "Vacation",
+   "loc": "Chattanooga"
+ },
+ {
+   "x": -83.5102,
+   "y": 35.7143,
+   "event": "Great Smoky Mountains National Park Visit",
+   "loc": "Gatlinburg"
+ },
+ {
+   "x": -96.797,
+   "y": 32.7767,
+   "event": "Airport",
+   "loc": "Dallas"
+ },
+ {
+   "x": -98.5,
+   "y": 29.4167,
+   "event": "Vacation",
+   "loc": "San Antonio"
+ },
+ {
+   "x": -95.3831,
+   "y": 29.7628,
+   "event": "MS TechEd 2014",
+   "loc": "Houston"
+ },
+ {
+   "x": -97.7431,
+   "y": 30.2672,
+   "event": "Work",
+   "loc": "Austin"
+ }
+]
